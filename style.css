@@ -38,7 +38,27 @@ body{
     background-size: contain;
     position: absolute;
     bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .info_footer_text{
     font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    line-height: 30.63px;
+    text-align: center;
+}
+.info_footer_bnt{
+    background-color: black;
+    width: 244px;
+    height: 60px;
+    gap: 10px;
+}
+
+.info_footer_bnt_txt{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 700;
+    color: #F8F200;
 }
