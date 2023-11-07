@@ -36,6 +36,7 @@ body{
     height: 207px;
     background-image: url(back_footer.jpg);
     background-size: contain;
+    background-color: #F8F200;
     position: absolute;
     bottom: 0;
     display: flex;

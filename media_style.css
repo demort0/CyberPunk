@@ -1,6 +1,30 @@
-@media (min-width: 1024px){
+@media (min-width: 1024px) {
  .info{
     width: 100%;
-    
+    height: 1000px;
+    background-image: url(back_img\ 1920.jpg);
+    background-size:cover;
+    background-position-x: center;
+ }
+
+ .info_header{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+ .info_header_logo{
+   margin: 0;
+ }
+ .info_header_logo_img{
+   width: 296px;
+   height: 74px;
+ }
+ .info_header_network{
+   width: 50%;
+ }
+ .info_header_network_content_click svg{
+   width: 30px;
+   height: 30px;
  }
 }
+
