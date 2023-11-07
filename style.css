@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+.info{
+    background: url(back_img\ 320.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 763px;
+    width: 320px;
+    margin: 0 auto;
+    position: relative;
+}
+.info_header_network{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.info_header_logo{
+    margin: 0 auto;
+    width: max-content;
+    
+}
+.info_header_logo_img{
+    width: 200px;
+    height: 50px;
+    border-radius: 8px;
+}
+.info_footer{
+    width: 320px;
+    height: 207px;
+    background-image: url(back_footer.jpg);
+    background-size: contain;
+    position: absolute;
+    bottom: 0;
+}
+.info_footer_text{
+    font-family: "Roboto", sans-serif;
+}
