@@ -73,6 +73,18 @@
   display: flex;
   padding: 20px;
 }
+.action_transit{
+  width: 100%;
+}
 
+.action{
+  width: 100%;
+}
+.action_logo{
+  display: none;
+}
+ .action_logo_1024{
+  display: block;
+ }
 }
 

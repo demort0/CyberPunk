@@ -119,3 +119,73 @@ body{
    object-fit: cover;
   width: 100%;
   }
+  .action {
+    width: 320px;
+    margin: 0 auto;
+    background-color: black;
+    margin-top: 0;
+    position: relative;
+  }
+  .action_transit{
+    width: 320px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: white;
+    margin-bottom: 0;
+    display: flex;
+    align-items: end;
+    
+
+  }
+  .action_transit_test{
+    height: 70px;
+    object-fit:cover;
+    object-position: center;
+    margin-top: 40px;
+    margin-bottom: 0;
+  }
+ .action_logo{
+    position: absolute;
+    left: 10px;
+ }
+  .action_logo_1024{
+    display: none;
+  }
+  .action_photo{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+  }
+  .action_photo_container_1{
+    position: relative;
+    height: 130px;
+    width: 40%;
+    
+  }
+  .action_photo_container_1_Xbox_background{
+    position: absolute;
+    z-index: 0;
+    top: 0;
+  }
+  .action_photo_container_1_Xbox{
+    position: absolute;
+    top: 6px;
+    left: 45px;
+    z-index: 1;
+  }
+  .action_photo_container_2{
+    position: relative;
+    height: 130px;
+    width: 40%;
+  }
+  .action_photo_container_2_PS5_background{
+    position: absolute;
+    z-index: 0;
+    top: 0;
+  }
+  .action_photo_container_2_PS5{
+    position: absolute;
+    top: 6px;
+    left: 45px;
+    z-index: 1;
+  }
