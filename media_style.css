@@ -66,6 +66,7 @@
  }
  .description_photo_container_1_1024{
   display: flex;
+  justify-content: space-around;
   padding: 20px;
   gap: 40px;
 }
@@ -94,7 +95,6 @@
 .action_main_block{
   margin: 0 auto;
   max-width: 460px;
-  padding: 80px 0px;
 }
 .action_dop_block{
   display: flex;
@@ -103,6 +103,9 @@
 }
 .action_block_1024{
   display: flex;
+}
+.action_main_block_info{
+  margin-top: 80px;
 }
 }
 
