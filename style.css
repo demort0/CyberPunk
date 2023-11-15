@@ -189,3 +189,29 @@ body{
     left: 45px;
     z-index: 1;
   }
+ .action_main_block{
+  padding: 10px;
+ }
+  .action_main_block_info{
+    color: white;
+  }
+  .action_main_block_form_scr{
+    color: white;
+    background-color: aquamarine;
+    text-decoration-line: underline;
+
+  }
+  .action_main_block_form_screen{
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8F200;
+  }
+  .action_main_block_form_file{
+    height: 120px;
+    display: none;
+  }
+  .action_main_block_form_checkbox{
+    color: white;
+  }
