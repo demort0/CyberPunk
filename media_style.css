@@ -73,11 +73,12 @@
   display: flex;
   padding: 20px;
 }
-.action_transit{
-  width: 100%;
-}
 
 .action{
+  width: 100%;
+ 
+}
+.action_transit{
   width: 100%;
 }
 .action_logo{
@@ -86,5 +87,22 @@
  .action_logo_1024{
   display: block;
  }
+ 
+.action_photo{
+  display: none;
+}
+.action_main_block{
+  margin: 0 auto;
+  max-width: 460px;
+  padding: 80px 0px;
+}
+.action_dop_block{
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+}
+.action_block_1024{
+  display: flex;
+}
 }
 
