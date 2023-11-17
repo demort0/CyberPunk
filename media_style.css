@@ -107,5 +107,26 @@
 .action_main_block_info{
   margin-top: 80px;
 }
+.hp {
+  width: 100%;
+}
+.hp_transit{
+  width: 100%;
+}
+
+.hp_main_photo_screen{
+  display: none;
+}
+.hp_main_photo_screen_1024{
+  display: block;
+}
+.hp_main_photo_icons{
+  display: none;
+}
+.hp_main_photo_icons_1024{
+  display: flex;
+  flex-direction: column;
+}
+
 }
 
