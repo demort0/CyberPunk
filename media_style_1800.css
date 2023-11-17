@@ -1,4 +1,4 @@
-@media (min-width: 1800px) {
+@media (min-width: 1700px) {
     .info_header{
         justify-content: center;
         align-items: center;
@@ -10,6 +10,9 @@
     }
     .info_header_logo{
         margin-top: 50px;
+    }
+    .description_block{
+        margin-left: 10%;
     }
     .action_dop_block{
         flex-direction: row;
