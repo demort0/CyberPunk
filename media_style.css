@@ -1,6 +1,6 @@
 @media (min-width: 1024px) {
  .info{
-    width: 110%;
+    width: 100%;
     height: 1000px;
     background-image: url(img/back_img\ 1920.jpg);
     background-size:cover;
@@ -222,4 +222,32 @@
   font-size: 18px;
   line-height: 21.09px;
 }
+.footer{
+  width: 100%;
+}
+.footer_container1{
+  display: flex;
+  
+}
+.footer_container1_logo{
+  display: none;
+}
+.footer_container1_logo_1024{
+  display: flex;
+  min-width: 50%;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer_container1_info{
+  display: flex;
+  min-width: 50%;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+}
+.footer_container1_info_txt{
+  font-size: 18px;
+  line-height: 21.09px;
+}
+
 }

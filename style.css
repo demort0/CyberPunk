@@ -3,7 +3,7 @@ body{
     padding: 0;
     font-size: 16px;
     font-family: "Roboto", sans-serif;
-    background: linear-gradient(to right, rgb(255, 153, 0), rgba(255, 136, 0, 0.726));
+    /* background: #E6E6E6; */
     
 }
 *{
@@ -12,7 +12,7 @@ body{
 .info{
     background: url(img/back_img\ 320.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     height: 763px;
     width: 320px;
     margin: 0 auto;
@@ -479,4 +479,51 @@ body{
   justify-content: start;
   align-items: end;
   gap: 10px 30px;
+}
+.footer{
+  width: 320px;
+  margin: 0 auto;
+  background-color: #FFF;
+}
+.footer_container1_logo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer_container1_logo_1{
+  margin: 20px 0px;
+}
+.footer_container1_logo_2{
+  margin: 20px 0;
+}
+.footer_container1_info{
+  background-color: #E6E6E6;
+  padding: 15px 0;
+}
+.footer_container1_info a{
+text-decoration: none;
+}
+.footer_container1_info_txt{
+  font-family: 'Roboto', sans-serif;
+  color: #000000;
+  font-size: 16px;
+  line-height: 18.75px;
+  text-align: center;
+}
+
+.footer_container1_logo_1024{
+  display: none;
+}
+.footer_container2{
+  background-color: #000000;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer_container2_txt{
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  line-height: 14.06px;
+  color: #FFF;
 }
