@@ -52,6 +52,18 @@
         display: block;
         margin-top: 80px;
         margin-bottom: 100px;
+    
     }
+    .shop_container1{
+        background: url(img/cyber_disk_1600.jpg) no-repeat;
+        height: 717px;
+        width: 944px;
+        margin-right: 50px;
+    }
+    .shop_container2{
+        
+        margin: 0 100px;
+       
+      }
   
 }

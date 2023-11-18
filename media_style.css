@@ -1,6 +1,6 @@
 @media (min-width: 1024px) {
  .info{
-    width: 100%;
+    width: 110%;
     height: 1000px;
     background-image: url(img/back_img\ 1920.jpg);
     background-size:cover;
@@ -182,6 +182,44 @@
   font-size: 18px;
   line-height: 21.09px;
 }
-
-
+.shop{
+  width: 100%;
+  display: flex;
+}
+.shop_container1{
+  background: url(img/cyber_disk_1024.jpg) no-repeat;
+  height: 717px;
+  width: 332px;
+  margin-right: 50px;
+  
+}
+.shop_container2{
+  width: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.shop_container2_title{
+  font-size: 62px;
+  line-height: 73.3px;
+}
+.shop_container2_title h3{
+  margin: 0;
+  margin-top: 30px;
+}
+.shop_container2_any_title{
+  font-size: 24px;
+  line-height: 28.13px;
+}
+.shop_container2_info_list_content_svg320{
+  display: none;
+}
+.shop_container2_info_list_content_svg1024{
+  display: block;
+}
+.shop_container2_info_list_content_txt{
+  font-size: 18px;
+  line-height: 21.09px;
+}
 }

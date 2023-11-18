@@ -3,7 +3,8 @@ body{
     padding: 0;
     font-size: 16px;
     font-family: "Roboto", sans-serif;
-    background-color: whitesmoke;
+    background: linear-gradient(to right, rgb(255, 153, 0), rgba(255, 136, 0, 0.726));
+    
 }
 *{
     box-sizing: border-box;
@@ -415,4 +416,67 @@ body{
   font-size: 16px;
   line-height: 19.75px;
   font-family: 'Roboto';
+}
+.shop{
+  background-color: black;
+  width: 320px;
+  margin: 0 auto;
+}
+.shop_container1{
+  width: 320px;
+  height: 200px;
+  background: url(img/cyber_disk.jpg) no-repeat;
+}
+.shop_container2{
+  width: 320px;
+  padding: 10px;
+}
+.shop_container2_title{
+  color: #FFFFFF;
+  font-family:'Unbounded', sans-serif;
+  font-size: 24px;
+  line-height: 30.64px;
+}
+.shop_container2_info{
+  padding: 0;
+}
+.shop_container2_any_title{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: #52BEDC;
+  font-size: 20px;
+  line-height: 23.44px;
+}
+.shop_container2_info_list{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.shop_container2_info_list_content{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  text-align: start;
+  margin: 10px 0;
+}
+.shop_container2_info_list_content_svg320{
+  min-width: 24px;
+}
+
+.shop_container2_info_list_content_txt{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 18.75px;
+  color: #FFF;
+}
+.shop_container2_info_list_content_svg1024{
+  display: none;
+}
+.shop_container2_platform_container{
+  display: grid;
+  grid-template-columns: 100px 178px;
+  grid-template-rows: 63px 63px;
+  justify-content: start;
+  align-items: end;
+  gap: 10px 30px;
 }
