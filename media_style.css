@@ -69,11 +69,19 @@
  .description_photo_container_2{
   display: none;
  }
+ .description_photo_container_1_1024_cont{
+  width: 460px;
+  display: block;
+ }
  .description_photo_container_1_1024{
   display: flex;
   justify-content: center;
   padding: 20px;
   gap: 40px;
+}
+.description_photo_container_1_1024_photo{
+  object-fit: fill;
+  
 }
 .description_photo_container_2_1024{
   display: flex;
